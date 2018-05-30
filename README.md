@@ -4,14 +4,14 @@ Code for an Ardunio blinking light panel and its attendant Python script.
 ### This repo contains all the code which is required to run your very own Arduino-powered panel of "Das Blinkenlights"!
 
 ## Requirements
-+python3
-+pip
-+virtualenv
-+psutil
-+pyserial
++ python3
++ pip
++ virtualenv
++ psutil
++ pyserial
 
-+Arduino microcontroller
-+Arduino Software IDE
++ Arduino microcontroller
++ Arduino Software IDE
 
 ## Principals of Operation 
 + The Arduino is hard-coded to look for new data coming across its serial connection every `interval` milliseconds (this is 200ms by default).
